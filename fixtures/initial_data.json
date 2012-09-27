@@ -3,7 +3,7 @@
       "model": "polls.poll",
       "pk": 1,
       "fields": {
-        "question": "What time is it?"
+        "question": "Do you like Django?"
       }
     },
     {
@@ -67,6 +67,105 @@
       "pk": 10,
       "fields": {
         "question": "dummy dummy?"
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 1,
+      "fields": {
+        "poll": "1",
+        "choice": "Sure",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 2,
+      "fields": {
+        "poll": "1",
+        "choice": "No",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 3,
+      "fields": {
+        "poll": "2",
+        "choice": "Between 1-20",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 4,
+      "fields": {
+        "poll": "2",
+        "choice": "Between 21-40",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 5,
+      "fields": {
+        "poll": "2",
+        "choice": "Between 40-110",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 6,
+      "fields": {
+        "poll": "3",
+        "choice": "Sure",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 7,
+      "fields": {
+        "poll": "3",
+        "choice": "No",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 8,
+      "fields": {
+        "poll": "4",
+        "choice": "Awesome",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 9,
+      "fields": {
+        "poll": "4",
+        "choice": "Bad",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 10,
+      "fields": {
+        "poll": "5",
+        "choice": "Before 12am",
+        "votes": 0
+      }
+    },
+    {
+      "model": "polls.choice",
+      "pk": 11,
+      "fields": {
+        "poll": "5",
+        "choice": "After 12am",
+        "votes": 0
       }
     }
 ]
