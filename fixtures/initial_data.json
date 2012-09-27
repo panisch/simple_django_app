@@ -1,0 +1,72 @@
+[
+    {
+      "model": "polls.poll",
+      "pk": 1,
+      "fields": {
+        "question": "What time is it?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 2,
+      "fields": {
+        "question": "How old are you?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 3,
+      "fields": {
+        "question": "Do you like this page?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 4,
+      "fields": {
+        "question": "How do you feel?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 5,
+      "fields": {
+        "question": "What time is it?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 6,
+      "fields": {
+        "question": "dummy dummy?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 7,
+      "fields": {
+        "question": "dummy dummy?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 8,
+      "fields": {
+        "question": "dummy dummy?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 9,
+      "fields": {
+        "question": "dummy dummy?"
+      }
+    },
+    {
+      "model": "polls.poll",
+      "pk": 10,
+      "fields": {
+        "question": "dummy dummy?"
+      }
+    }
+]
