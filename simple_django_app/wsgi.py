@@ -14,6 +14,8 @@ framework.
 
 """
 import os
+import sys
+
 path = "/home/ubuntu/simple_django_app"
 if path not in sys.path:
     sys.path.append(path)
