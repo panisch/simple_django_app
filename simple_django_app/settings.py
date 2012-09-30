@@ -3,7 +3,7 @@ import os
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = True
+DEBUG = True 
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -20,6 +20,12 @@ DATABASES = {
          'PASSWORD':'secret',
          'HOST' : 'localhost',
          'PORT' : '',
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'django',
+#         'USER': 'django',
+#         'PASSWORD':'secret',
+#         'HOST' : 'ec2-23-20-171-218.compute-1.amazonaws.com',
+#         'PORT' : '6543',
      }
 }
 
